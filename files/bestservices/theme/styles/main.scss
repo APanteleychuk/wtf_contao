@@ -1,0 +1,37 @@
+$icon-font-path: '../fonts/';
+// Before Bootstrap
+@import "template/Bebas_Neue_Cyrillic";
+@import "variables/grid";
+@import "variables/typografy";
+@import "variables/navbar";
+@import "variables/scaffolding";
+@import "variables/carousel";
+@import "variables/buttons";
+@import "template/variables_loc";
+
+// bower:scss
+@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// Bootstrap modifications
+
+
+// Custom CSS
+@import "template/sprite";
+@import "template/header";
+@import "template/top_menu";
+@import "template/top_slider";
+@import "template/services";
+@import "template/testimonials";
+@import "template/map";
+@import "template/footer_menu";
+@import "template/footer";
+
+
+@import "template/custom";
+
+
+// Responsive
+@import "template/mobile";
+@import "template/tablet";
+@import "template/desktop";

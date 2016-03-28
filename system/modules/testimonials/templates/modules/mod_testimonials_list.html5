@@ -1,0 +1,8 @@
+
+<?php foreach($this->testimonials as $testimonial): ?>
+    <?php if ($testimonial['image']): ?><figure class="cover"><?php echo $testimonial['image']; ?></figure><?php endif; ?>
+    <div class=""><?php echo $testimonial['author']; ?></div>
+    <div class=""><?php echo $testimonial['job']; ?></div>
+    <?php if ($testimonial['comment']): ?><div class=""><?php echo $testimonial['comment']; ?></div><?php endif; ?>
+<?php endforeach; ?>
+
