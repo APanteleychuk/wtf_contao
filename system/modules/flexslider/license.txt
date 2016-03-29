@@ -1,0 +1,7 @@
+﻿FlexSlider by WooThemes. http://www.woothemes.com/flexslider/
+
+Thanks to Lionel Maccaud for Coin Slider (http://www.contao.org/en/extension-list/authors/lionel.html)
+Thanks to André Saage for German translation
+Thanks to Paolo Brunelli for Italian translation
+
+Contao extension by Jozef Dvorský (http://www.contao.org/en/extension-list/authors/lionel.html)

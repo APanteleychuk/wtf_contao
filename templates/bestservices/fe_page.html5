@@ -23,6 +23,7 @@
     <?php $this->endblock(); ?>
   <?php $this->endblock(); ?>
 	<script src="files/bestservices/theme/scripts/vendor/modernizr.js"></script>
+	<script src="files/bestservices/theme/scripts/plugins.js"></script>
 </head>
 <body id="top" class="{{ua::class}}<?php if ($this->class) echo ' ' . $this->class; ?>"<?php if ($this->onload): ?> onload="<?= $this->onload ?>"<?php endif; ?>>
 <!--[if lt IE 10]>
@@ -42,8 +43,9 @@
             </div>
           </header>
         <?php endif; ?>
-      <?php $this->endblock(); ?><!--top-->
+      <?php $this->endblock(); ?><!-- end top-->
 			</div>
+			 {{insert_module::124}}<!--insert module contact-->
 		</nav>
 
 
@@ -52,7 +54,7 @@
       <?php $this->sections('before'); ?>
 
       <?php $this->block('container'); ?>
-        <div id="container">
+        <div class="container" id="container">
 
           <?php $this->block('main'); ?>
             <div id="main">
@@ -83,7 +85,7 @@
             <?php endif; ?>
           <?php $this->endblock(); ?>
 
-        </div>
+<!--        </div>-->
       <?php $this->endblock(); ?>
 
       <?php $this->sections('after'); ?>
