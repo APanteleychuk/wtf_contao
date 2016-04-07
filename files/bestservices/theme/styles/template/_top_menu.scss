@@ -25,9 +25,10 @@
   }
   .telephone {
     display: inline-block;
-    position: absolute;
-    right: 25px;
-    top: 25px;
+    float: right;
+    //position: absolute;
+    //right: 25px;
+    //top: 25px;
     .first-t {
       display: inline-block;
     }

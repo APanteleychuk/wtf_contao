@@ -1,4 +1,9 @@
 'use strict';
 
-console.log('\'Allo \'Allo!');
-//# sourceMappingURL=main.js.map
+(function($) {
+  $( document ).ready(function() {
+    setTimeout(function(){
+      $('.form-consultation').fadeIn(2000);
+    }, 2000);
+  });
+})(jQuery);

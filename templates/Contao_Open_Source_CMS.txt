@@ -4,7 +4,7 @@
 # Contao-Website   : Contao Open Source CMS
 # Contao-Database  : contao
 # Saved by User    : admin (admin)
-# Time stamp       : 2016-03-29 at 10:38:43
+# Time stamp       : 2016-04-07 at 14:24:40
 #
 # Contao Extension : BackupDB, Version 3.2.0
 # Copyright        : Softleister (www.softleister.de)
@@ -15,33 +15,33 @@
 #
 #-----------------------------------------------------
 # Contao Version 3.5.8
-# The following extensions must be installed:
+# Внимание! Следующие модули должны быть установлены:
 #-----------------------------------------------------
 #   - dlh_geocode                 : Version 1.0.4 stable, Build 6
 #   - dlh_googlemaps              : Version 2.1.1 stable, Build 4
+#   - FlexSlider                  : Version 1.4.3 stable, Build 4
 #   - news_categories             : Version 2.7.0 stable, Build 3
 #   - widget_tree_picker          : Version 2.0.2 stable, Build 3
-#   - custom_category
 #   - testimonials
 #
 #================================================================================
 
 #------------------------------------------
-# Installation:
+# Установка:
 #------------------------------------------
 
- 1. Install standard paket Contao in your domain.
-    (ex. extract ZIP and FTP upload to your webspace)
-    Don't use the InstallTool now, but as point 5!
+ 1. Установите стандартный пакет Contao в домене.
+ (напр. извлеките ZIP архив и выгрузите содержимое по FTP на ваш веб-сайт)
+ Не используйте установщик Contao прямо сейчас, дойдите до 5 шага!
 
- 2. Installation of all listed extensions.
+ 2. Установите все перечисленные расширения.
 
- 3. Save this website-template in the path /templates/.
+ 3. Сохраните этот шаблон веб-сайта в папку /templates/ сайта.
 
- 4. Save all files needed for the website-template in path
-    /templates/ and /files/ or subdirectories (just like
-    in the template creation).
+ 4. Сохраните все файлы, необходимые для шаблона веб-сайта в папку
+ /templates/ и /tl_files/, а также в подпапки (точно так же,
+ как в создаваемом шаблоне).
 
- 5. Run the InstallTool of Contao now and import from
-    the website-template.
+ 5. Запустите установщик Contao и импортируйте
+ шаблон веб-сайта.
 

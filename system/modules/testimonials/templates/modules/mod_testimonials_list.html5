@@ -1,8 +1,12 @@
 
-<?php foreach($this->testimonials as $testimonial): ?>
-    <?php if ($testimonial['image']): ?><figure class="cover"><?php echo $testimonial['image']; ?></figure><?php endif; ?>
-    <div class=""><?php echo $testimonial['author']; ?></div>
-    <div class=""><?php echo $testimonial['job']; ?></div>
-    <?php if ($testimonial['comment']): ?><div class=""><?php echo $testimonial['comment']; ?></div><?php endif; ?>
-<?php endforeach; ?>
+<div class=" custom-testimonials owl-carousel">
 
+
+<?php foreach($this->testimonials as $testimonial): ?>
+		<div class="item">
+    <?php if ($testimonial['image']): ?><figure class="cover"><?php echo $testimonial['image']; ?></figure><?php endif; ?>
+    <div class="author"><?php echo $testimonial['author']; ?>, <span><?php echo $testimonial['job']; ?></span></div>
+    <?php if ($testimonial['comment']): ?><div class="comment"><?php echo $testimonial['comment']; ?></div><?php endif; ?>
+		</div>
+<?php endforeach; ?>
+</div>

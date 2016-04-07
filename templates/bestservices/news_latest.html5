@@ -28,7 +28,7 @@
   </div>
 
   <?php if ($this->hasText || $this->hasTeaser): ?>
-    <p class="more btn btn-default"><?= $this->more ?></p>
+    <p class="more btn btn-default"><?= $a = $this->more ?></p>
   <?php endif; ?>
 
 </div>
